@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-color: lightgrey;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  list-style: none;
+  margin-right: 500px;
+  font-size: 16px;
+}
+
+li {
+  padding-right: 30px;
+  color: grey;
+}
+.avatar {
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+}
+
+.svg-cart {
+  margin-bottom: 20px;
+  padding-right: 20px;
+}
+
+hr {
+  background-color: gray;
+}
